@@ -16,3 +16,5 @@ The main analysis correspond to the follows:
 - Spectral analysis - we calculate energy spectra, and flux cross spectra using the https://github.com/xgcm/xrft package.
 
 *The 3D figures were made using paraview, and scripts are not provided here*.
+
+https://doi.org/10.5281/zenodo.2600401
