@@ -1,4 +1,6 @@
 # submesoscale_subduction_GRL
+https://zenodo.org/badge/DOI/10.5281/zenodo.2600401.svg
+
 
 This repository contains the MITgcm model setup and analysis scripts that were used for the paper *Submesoscale Vertical Velocities Enhance Tracer Subduction in an Idealized Antarctic Circumpolar Current*, Balwada, Smith and Abernathey 2018, GRL (https://doi.org/10.1029/2018GL079244).
 
