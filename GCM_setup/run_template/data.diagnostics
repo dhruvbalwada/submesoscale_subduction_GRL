@@ -1,0 +1,9 @@
+ &diagnostics_list 
+  diag_mnc     = .FALSE.,
+  filename(1) = 'DiagLAYERS-transport',
+  frequency(1) = 311040000.,
+  fields(1,1)= 'LaUH1TH ','LaHw1TH ','LaPw1TH ',
+                 'LaVH1TH ','LaHs1TH ','LaPs1TH ',
+ &
+ &DIAG_STATIS_PARMS
+ &

@@ -1,0 +1,7 @@
+#============================================ 
+#| Ryan's Auto-Generated MITgcm eedata file | 
+#============================================ 
+# nTx - No. threads per process in X
+# nTy - No. threads per process in Y
+ &EEPARMS
+ &

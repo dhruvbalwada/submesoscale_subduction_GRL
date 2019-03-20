@@ -1,0 +1,8 @@
+#================================================= 
+#| Ryan's Auto-Generated MITgcm data.kpp file | 
+#================================================= 
+ &KPP_PARM01
+  KPPmixingMaps=.FALSE.,
+  minKPPhbl=30.,
+  LimitHblStable=.FALSE.,
+ &
