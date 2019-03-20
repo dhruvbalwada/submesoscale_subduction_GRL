@@ -12,3 +12,5 @@ The main analysis correspond to the follows:
 - Basic descriptive plots; mean flows, EKE etc. 
 - Tracer budget analysis - how much tracer changes in a control, and what processes (advection or diffusion) at the boundaries influence this. 
 - Spectral analysis - we calculate energy spectra, and flux cross spectra using the https://github.com/xgcm/xrft package.
+
+*The 3D figures were made using paraview, and scripts are not provided here*.
