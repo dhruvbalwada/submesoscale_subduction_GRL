@@ -1,0 +1,12 @@
+#============================================== 
+#| Ryan's Auto-Generated MITgcm data.mnc file | 
+#============================================== 
+ &MNC_01
+# use MNC only for for monitor files
+ monitor_mnc=.TRUE.,
+ writegrid_mnc=.FALSE.,
+ pickup_read_mnc=.FALSE.,
+ pickup_write_mnc=.FALSE.,
+ timeave_mnc=.FALSE.,
+ snapshot_mnc=.FALSE.,
+ &

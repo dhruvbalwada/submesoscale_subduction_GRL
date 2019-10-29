@@ -1,0 +1,91 @@
+#========================================== 
+#| Ryan's Auto-Generated MITgcm data file | 
+#========================================== 
+# Continuous equation parameters 
+ &PARM01
+# viscosity
+ viscAr=5.6614E-04,
+ viscC4Leith=2.15,
+ viscC4Leithd=2.15,
+ viscA4GridMax=0.8,
+ useAreaViscLength=.TRUE.,
+# highOrderVorticity=.TRUE.,
+# diffusivity
+ tempAdvScheme=7,
+ diffKrT=5.44e-7,
+ saltStepping=.FALSE.,
+ staggerTimeStep=.TRUE.,
+# multiDimAdvection=.TRUE.,
+# vectorInvariantMomentum=.TRUE.,
+# initial vertical profiles of T and S
+ sRef=30*35.0000,
+# equation of state
+ eosType='LINEAR',
+ tAlpha=2.0E-04,
+ sBeta=0.0,
+# boundary conditions
+ no_slip_sides=.FALSE.,
+ no_slip_bottom=.TRUE.,
+# bottomDragLinear=1.1E-03,
+ bottomDragQuadratic=0.0021,
+# physical parameters
+ f0=-1.1E-04,
+ beta=1.4E-11,
+ gravity=9.81,
+# implicit diffusion and convective adjustment
+ implicitDiffusion=.TRUE.,
+ implicitViscosity=.TRUE.,
+# exact volume conservation
+ exactConserv=.TRUE.,
+# C-V scheme for Coriolis term
+ useCDscheme=.FALSE.,
+# partial cells for smooth topography
+ hFacMin=5.0E-02,
+# file IO stuff
+ readBinaryPrec=64,
+ useSingleCpuIO=.TRUE.,
+ debugLevel=1,
+ &
+# elliptic solver parameters
+ &PARM02
+ cg2dMaxIters=500,
+ cg2dTargetResidual=1.000000E-09,
+ &
+# timestepping parameters
+ &PARM03
+ deltaT=300.0,
+ nIter0=0017573760,
+# 100 years
+ nTimeSteps=518400,
+ abEps=0.1,
+# 6 months
+# chkPtFreq=15552000.,
+# 5 years
+ pChkptFreq=15552000.,
+# 20 years 
+# taveFreq=622080000.,
+ taveFreq=15552000.,
+# dumpFreq=1.,
+# 6 months
+ dumpFreq=15552000.,
+# one month
+ monitorFreq=15552000.,
+# monitorFreq=1.,
+ tauThetaClimRelax=2592000.0,
+ dumpInitAndLast=.TRUE.,
+ pickupStrictlyMatch=.FALSE.,
+ &
+# gridding parameters
+ &PARM04
+ usingCartesianGrid=.TRUE.,
+ delX=400*5000.,
+ delY=400*5000.,
+ delR=10.0, 10.0, 10.0, 12.0, 14.0, 16.0, 19.0, 22.0, 26.0, 30.0, 36.0, 42.0, 50.0, 60.0, 72.0, 85., 102., 23*103.,
+ &
+# Input datasets
+ &PARM05
+ bathyFile='bathyFile.bin',
+ zonalWindFile='zonalWindFile.bin',
+ thetaClimFile='thetaClimFile.bin',
+ hydrogThetaFile='hydrogThetaFile.bin',
+ &

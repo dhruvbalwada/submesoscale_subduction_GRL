@@ -1,0 +1,107 @@
+  &diagnostics_list
+  diag_mnc     = .FALSE.,
+  filename(1) = 'tracer1_diag'
+  frequency(1) = 15552000.
+  fields(1:40,1) = 'TRAC01', 'UTRAC01', 'VTRAC01',
+                  'WTRAC01', 'DFrITr01', 'ForcTr01',
+  filename(2) = 'tracer2_diag'
+  frequency(2) = 15552000.
+  fields(1:40,2) = 'TRAC02', 'UTRAC02', 'VTRAC02',
+                  'WTRAC02', 'DFrITr02', 'ForcTr02',
+  filename(3) = 'tracer3_diag'
+  frequency(3) = 15552000.
+  fields(1:40,3) = 'TRAC03', 'UTRAC03', 'VTRAC03',
+                  'WTRAC03', 'DFrITr03', 'ForcTr03',  
+  filename(4) = 'tracer4_diag'
+  frequency(4) = 15552000.
+  fields(1:40,4) = 'TRAC04', 'UTRAC04', 'VTRAC04',
+                  'WTRAC04', 'DFrITr04', 'ForcTr04',
+  filename(5) = 'tracer5_diag'
+  frequency(5) = 15552000.
+  fields(1:40,5) = 'TRAC05', 'UTRAC05', 'VTRAC05',
+                  'WTRAC05', 'DFrITr05', 'ForcTr05',
+  filename(6) = 'tracer6_diag'
+  frequency(6) = 15552000.
+  fields(1:40,6) = 'TRAC06', 'UTRAC06', 'VTRAC06',
+                  'WTRAC06', 'DFrITr06', 'ForcTr06',
+  filename(7) = 'tracer7_diag'
+  frequency(7) = 15552000.
+  fields(1:40,7) = 'TRAC07', 'UTRAC07', 'VTRAC07',
+                  'WTRAC07', 'DFrITr07', 'ForcTr07',
+  filename(8) = 'tracer8_diag'
+  frequency(8) = 15552000.
+  fields(1:40,8) = 'TRAC08', 'UTRAC08', 'VTRAC08',
+                  'WTRAC08', 'DFrITr08', 'ForcTr08',
+  filename(9) = 'tracer9_diag'
+  frequency(9) = 15552000.
+  fields(1:40,9) = 'TRAC09', 'UTRAC09', 'VTRAC09',
+                  'WTRAC09', 'DFrITr09', 'ForcTr09',
+  filename(10) = 'tracer10_diag'
+  frequency(10) = 15552000.
+  fields(1:40,10) = 'TRAC10', 'UTRAC10', 'VTRAC10',
+                  'WTRAC10', 'DFrITr10', 'ForcTr10',
+  filename(11) = 'tracer11_diag'
+  frequency(11) = 15552000.
+  fields(1:40,11) = 'TRAC11', 'UTRAC11', 'VTRAC11',
+                  'WTRAC11', 'DFrITr11', 'ForcTr11',
+  filename(12) = 'tracer12_diag'
+  frequency(12) = 15552000.
+  fields(1:40,12) = 'TRAC12', 'UTRAC12', 'VTRAC12',
+                  'WTRAC12', 'DFrITr12', 'ForcTr12',
+  filename(13) = 'tracer13_diag'
+  frequency(13) = 15552000.
+  fields(1:40,13) = 'TRAC13', 'UTRAC13', 'VTRAC13',
+                  'WTRAC13', 'DFrITr13', 'ForcTr13',
+  filename(14) = 'tracer14_diag'
+  frequency(14) = 15552000.
+  fields(1:40,14) = 'TRAC14', 'UTRAC14', 'VTRAC14',
+                  'WTRAC14', 'DFrITr14', 'ForcTr14',
+  filename(15) = 'tracer15_diag'
+  frequency(15) = 15552000.
+  fields(1:40,15) = 'TRAC15', 'UTRAC15', 'VTRAC15',
+                  'WTRAC15', 'DFrITr15', 'ForcTr15',
+  filename(16) = 'tracer16_diag'
+  frequency(16) = 15552000.
+  fields(1:40,16) = 'TRAC16', 'UTRAC16', 'VTRAC16',
+                  'WTRAC16', 'DFrITr16', 'ForcTr16',
+  filename(17) = 'tracer17_diag'
+  frequency(17) = 15552000.
+  fields(1:40,17) = 'TRAC17', 'UTRAC17', 'VTRAC17',
+                  'WTRAC17', 'DFrITr17', 'ForcTr17',
+  filename(18) = 'tracer18_diag'
+  frequency(18) = 15552000.
+  fields(1:40,18) = 'TRAC18', 'UTRAC18', 'VTRAC18',
+                  'WTRAC18', 'DFrITr18', 'ForcTr18',
+  filename(19) = 'tracer19_diag'
+  frequency(19) = 15552000.
+  fields(1:40,19) = 'TRAC19', 'UTRAC19', 'VTRAC19',
+                  'WTRAC19', 'DFrITr19', 'ForcTr19',
+  filename(20) = 'tracer20_diag'
+  frequency(20) = 15552000.
+  fields(1:40,20) = 'TRAC20', 'UTRAC20', 'VTRAC20',
+                  'WTRAC20', 'DFrITr20', 'ForcTr20',
+  filename(21) = 'DiagLAYERS-transport',
+  frequency(21) = 155520000.,
+  fields(1,21)= 'LaUH1TH ','LaHw1TH ','LaPw1TH ',
+                 'LaVH1TH ','LaHs1TH ','LaPs1TH ',
+  filename(22) = 'DiagLAYERS-diapycnal',
+  frequency(22) = 155520000.,
+  fields(1,22)= 'LaTs1TH ','LaTh1TH ','LaTz1TH ',
+                'LTha1TH ','LTza1TH ','LTto1TH '
+  filename(23) = 'DiagLAYERS-trend',
+  frequency(23) = -15552000.0,
+  timePhase(23) = 0.,
+  fields(1,23) = 'LaHc1TH ', 'LaHs1TH ', 'LaHw1TH ',
+#  gad T plus surface flux
+  filename(24) = 'DiagGAD-T',
+  frequency(24) = 155520000.,
+  fields(1,24)='TOTTTEND','ADVr_TH ','ADVx_TH ','ADVy_TH ',
+                'DFrE_TH ','DFxE_TH ','DFyE_TH ','DFrI_TH ',
+                'UTHMASS ','VTHMASS ','WTHMASS ',
+  filename(25) = 'DiagSurf',
+  frequency(25) = 155520000.,
+  fields(1,25) =  'TFLUX   ','WTHMASS ',
+  levels(1,25) = 1, 
+ &
+  &DIAG_STATIS_PARMS
+ &
